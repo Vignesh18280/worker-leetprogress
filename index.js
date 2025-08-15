@@ -71,10 +71,10 @@ async function scrapeAndStore() {
     console.log("Starting the full scraping process...");
 
     let contestUrls = [];
-    for (let i = 394; i <= 443; i++) {
+    for (let i = 444; i <= 462; i++) {
         contestUrls.push({ url: `https://leetcode.com/contest/weekly-contest-${i}/`, name: `Weekly Contest ${i}`, type: "Weekly" });
     }
-    for (let i = 104; i <= 153; i++) {
+    for (let i = 154; i <= 162; i++) {
         contestUrls.push({ url: `https://leetcode.com/contest/biweekly-contest-${i}/`, name: `Biweekly Contest ${i}`, type: "Biweekly" });
     }
 
